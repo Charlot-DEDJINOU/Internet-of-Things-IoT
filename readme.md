@@ -8,14 +8,13 @@ Chaque nouveau projet est organisé dans un dossier dédié à l'intérieur de c
 
 - `code_source/` : Ce dossier contient le code source du projet.
 - `readme.md` : Fichier README détaillant le projet, les étapes d'installation et d'utilisation.
-- `montage.jpg` : Photo du montage réalisé pour le projet.
 
 ## Liste des projets
 
 Voici la liste des projets déjà réalisés dans ce dépôt :
 
-1. **Projet 1 : Nom du Projet**
-   - Description : [Description brève du projet]
+1. **LED Light Chaser**
+   - Description : Le projet "LED Light Chaser" est une démonstration de la façon dont la technologie de l'Internet des Objets (IoT) peut être utilisée pour créer un système réactif à la lumière ambiante. En utilisant une photoresistance et des LEDs connectées à une carte Arduino, ce projet crée un effet de chenillard lumineux en fonction de la luminosité environnante
 
 ## Comment contribuer
 
