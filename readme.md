@@ -15,6 +15,8 @@ Voici la liste des projets déjà réalisés dans ce dépôt :
 
 1. **LED Light Chaser**
    - Description : Le projet "LED Light Chaser" est une démonstration de la façon dont la technologie de l'Internet des Objets (IoT) peut être utilisée pour créer un système réactif à la lumière ambiante. En utilisant une photoresistance et des LEDs connectées à une carte Arduino, ce projet crée un effet de chenillard lumineux en fonction de la luminosité environnante
+2. **Weather Station LCD**
+   - Description *: Le projet "Weather Station LCD" est une station météo simple et efficace qui utilise un capteur DHT11 pour mesurer la température et l'humidité de l'environnement, un écran LCD pour afficher ces données, et un potentiomètre pour régler la luminosité de l'écran.
 
 ## Comment contribuer
 
