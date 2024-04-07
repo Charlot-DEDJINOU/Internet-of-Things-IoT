@@ -19,6 +19,8 @@ Voici la liste des projets déjà réalisés dans ce dépôt :
    - Description : Le projet "Weather Station LCD" est une station météo simple et efficace qui utilise un capteur DHT11 pour mesurer la température et l'humidité de l'environnement, un écran LCD pour afficher ces données, et un potentiomètre pour régler la luminosité de l'écran.
 3. **Access Control with Servo and Ultrasonic Sensor**
    - Description : Ce projet implémente un Système de Contrôle d'Accès utilisant un capteur ultrasonique (HC-SR04) pour détecter la proximité d'un objet, un servomoteur pour simuler un verrou de porte, et des LEDs pour indiquer l'accès autorisé ou refusé. Le système est conçu pour ouvrir la porte lorsqu'un objet se trouve à moins de 15 cm du capteur et fermer la porte sinon.
+4. **RFID Access Control System**
+   - Description : Ce projet utilise un lecteur RFID (MFRC522) avec Arduino pour créer un système de contrôle d'accès basé sur des cartes RFID. Le système permet d'ouvrir une porte en fonction des cartes d'accès autorisées. Et au delà de 03 tentatives d'echec une alarme se déclanche.
 
 ## Comment contribuer
 
