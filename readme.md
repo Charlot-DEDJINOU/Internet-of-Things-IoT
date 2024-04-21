@@ -34,4 +34,4 @@ Si vous souhaitez contribuer à un projet existant ou ajouter un nouveau projet,
 
 Merci de contribuer et de partager vos idées et innovations en IoT !
 
-# Auteur : [Charlot DEDJINOU](https://charlot-dedjinou.vercel.app)
+## Auteur : [Charlot DEDJINOU](https://charlot-dedjinou.vercel.app)
