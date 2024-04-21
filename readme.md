@@ -21,6 +21,8 @@ Voici la liste des projets déjà réalisés dans ce dépôt :
    - Description : Ce projet implémente un Système de Contrôle d'Accès utilisant un capteur ultrasonique (HC-SR04) pour détecter la proximité d'un objet, un servomoteur pour simuler un verrou de porte, et des LEDs pour indiquer l'accès autorisé ou refusé. Le système est conçu pour ouvrir la porte lorsqu'un objet se trouve à moins de 15 cm du capteur et fermer la porte sinon.
 4. **RFID Access Control System**
    - Description : Ce projet utilise un lecteur RFID (MFRC522) avec Arduino pour créer un système de contrôle d'accès basé sur des cartes RFID. Le système permet d'ouvrir une porte en fonction des cartes d'accès autorisées. Et au delà de 03 tentatives d'echec une alarme se déclanche.
+5. **Light Control System with Photoresistance and Motion Sensor**
+   - Description : Ce projet implémente un système de contrôle de l'éclairage qui utilise une photorésistance pour mesurer la luminosité environnante et un capteur de mouvement PIR pour détecter les mouvements à proximité. Lorsque la luminosité chute en dessous d'un certain seuil et qu'un mouvement a été détecté récemment, le système déclenche un effet de clignotement sur des LED connectées. Après un certain nombre de minutes sans détection de mouvement, les LED s'éteignent automatiquement.
 
 ## Comment contribuer
 
@@ -31,3 +33,5 @@ Si vous souhaitez contribuer à un projet existant ou ajouter un nouveau projet,
 4. Soumettez une demande de tirage (pull request) pour examiner vos modifications.
 
 Merci de contribuer et de partager vos idées et innovations en IoT !
+
+# Auteur : [Charlot DEDJINOU](https://charlot-dedjinou.vercel.app)
