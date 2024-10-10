@@ -3,7 +3,7 @@
 
 int lightReading;  // Variable pour stocker la lecture analogique de la photorésistance
 int pirVal;        // Variable pour stocker la lecture du capteur de mouvement
-int minute = 0;    // Variable pour compter le nombre de minutes d'inactivité
+long minute = 0;    // Variable pour compter le nombre de minutes d'inactivité
 
 void setup() {
   pinMode(LightPin, INPUT);  // Configure la broche A0 (LightPin) comme entrée pour la photorésistance
@@ -25,12 +25,11 @@ void loop() {
   if (pirVal)
     minute = 0;
   else {
-    delay(1000);  // Attend 1 seconde pour éviter les fausses détections de mouvement
-    minute += 1;  // Incrémente la minuterie d'inactivité
+    minute += 100;  // Incrémente la minuterie d'inactivité
   }
 
   // Si la lumière est faible et qu'il y a eu moins de 5 minutes d'inactivité
-  if (lightReading < 50 && minute < 60 * 5) {
+  if (lightReading < 50 && minute < 30000) {
     // Allume et éteint toutes les LEDs de 3 à 12 pour créer un effet de clignotement
     for (int ledPin = 3; ledPin < 13; ledPin++) {
       digitalWrite(ledPin, HIGH);
